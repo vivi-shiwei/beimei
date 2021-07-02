@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1200">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/reset.css" type="text/css" />
+  <link rel="stylesheet" href="css/index.css" type="text/css" />
+  <link rel="stylesheet" href="font/iconfont.css" type="text/css" />
+
+  <script type="text/javascript" src="js/option.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/js-com.js"></script>
+</head>
+
+<body>
+  <header class="bg_fff">
+    <div class="con">
+      <a><img src="images/logo.png"></a>
+      <div class="header_r flex_center">
+        <label>美国东部时间：</label>
+        <span class="mr_10">2021年6月4日</span>
+        <label class="mr_10">星期五</label>
+        <div class="menu_item flex_center">
+          <div class="menu_li">
+            <select name="input_province" id="input_province" class="form-control">
+              <option value="">美国</option>
+            </select>
+          </div>
+          <div class="menu_li">
+            <select name="input_city" id="input_city" class="form-control">
+              <option value="">纽约</option>
+            </select>
+          </div>
+          <div class="menu_li">
+            <select name="input_type" id="input_type" class="form-control">
+              <option value="">法律移民</option>
+            </select>
+          </div>
+          <button type="button">搜索<span class="iconfont ml_8">&#xe684;</span></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav style="background: url(images/nav_img1.jpg) no-repeat center center;">
+    <div class="con con-1260">
+      <dl class="dl_item">
+        <dt class="dt_item font_spacing" style="background: url(images/america.jpg) no-repeat right center;">美国</dt>
+        <div class="dd_item1">
+          <dd><a href="">纽约</a></dd>
+          <dd><a href="">新泽西 · 宾州</a></dd>
+          <dd><a href="">波士顿</a></dd>
+          <dd><a href="">大华府 · 东南区</a></dd>
+          <dd><a href="">芝加哥</a></dd>
+          <dd><a href="">达拉斯</a></dd>
+          <dd><a href="">洛杉矶</a></dd>
+          <dd><a href="">旧金山</a></dd>
+          <dd><a href="">圣地亚哥</a></dd>
+          <dd><a href="">西雅图</a></dd>
+          <dd><a href="">拉斯维加斯</a></dd>
+          <dd><a href="">夏威夷</a></dd>
+          <dd><a href="">其它地区</a></dd>
+        </div>
+      </dl>
+      <dl class="dl_item">
+        <dt class="dt_item font_spacing" style="background: url(images/canada.jpg) no-repeat right center;">加拿大</dt>
+        <div class="dd_item2">
+          <dd><a href="">多伦多</a></dd>
+          <dd><a href="">温哥华</a></dd>
+          <dd><a href="">蒙特利尔</a></dd>
+          <dd><a href="">卡尔加里</a></dd>
+          <dd><a href="">埃德蒙顿</a></dd>
+          <dd><a href="">渥太华</a></dd>
+          <dd><a href="">其它地区</a></dd>
+        </div>
+      </dl>
+    </div>
+  </nav>
+  <section>
+    <div class="con-1260">
+      <div class="query_type">
+        <ul>
+          <li><a href="">法律移民</a></li>
+          <li><a href="">税务会计</a></li>
+          <li><a href="">旅游票务</a></li>
+          <li><a href="">医药诊所</a></li>
+          <li><a href="">银行贷款</a></li>
+          <li><a href="">保险经纪</a></li>
+          <li><a href="">房产经纪</a></li>
+          <li><a href="">投资理财</a></li>
+          <li><a href="">培训留学</a></li>
+          <li><a href="">职业介绍</a></li>
+          <li><a href="">建筑装修</a></li>
+          <li><a href="">酒店交通</a></li>
+          <li><a href="">汽车服务</a></li>
+          <li><a href="">餐饮美食</a></li>
+          <li><a href="">灯饰招牌</a></li>
+          <li><a href="">罚单处理</a></li>
+          <li><a href="">监控警钟</a></li>
+          <li><a href="">居家维修</a></li>
+          <li><a href="">护理保健</a></li>
+          <li><a href="">美容按摩</a></li>
+          <li><a href="">搬家快递</a></li>
+          <li><a href="">外卖配送</a></li>
+          <li><a href="">批发零售</a></li>
+          <li><a href="">电脑通讯</a></li>
+          <li><a href="">印刷出版</a></li>
+          <li><a href="">婚纱庆宴</a></li>
+          <li><a href="">证照代办</a></li>
+          <li><a href="">命相宗教</a></li>
+          <li><a href="">殡仪墓园</a></li>
+          <li><a href="">其它广告</a></li>
+        </ul>
+      </div>
+
+      <div class="advertise1">
+        <a class="img"><img src="images/ad_img1.png" onload="setimg(this,100,38.46)" /></a>
+        <a class="img"><img src="images/ad_img2.png" onload="setimg(this,100,38.46)" /></a>
+        <a class="img"><img src="images/ad_img3.png" onload="setimg(this,100,38.46)" /></a>
+      </div>
+
+      <div class="advertise2">
+        <div class="notification">
+          <div class="new_release">最新发布</div>
+          <div class="swiper-notification">
+            <div class="notification-banner">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="">
+                    <div class="hidden">特朗普新平台永久关闭，没能撑过一个月</div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <div class="hidden">喜报丨城信股份再添新客户，助力环旭电子进行智能化建设 2021-05-272</div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <div class="hidden">喜报丨城信股份再添新客户，助力环旭电子进行智能化建设 2021-05-273</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="more" href="">我要刊登广告</a>
+        </div>
+
+        <div class="advertise_item">
+          <dl>
+            <dd><a href=""><img src="images/ad_img8.jpg"></a></dd>
+            <dd><a href=""><img src="images/ad_img8.jpg"></a></dd>
+            <dd><a href=""><img src="images/ad_img8.jpg"></a></dd>
+            <dd><a href=""><img src="images/ad_img8.jpg"></a></dd>
+            <dt><a href=""><img src="images/ad_img7.jpg"></a></dt>
+            <dt><a href=""><img src="images/ad_img7.jpg"></a></dt>
+            <dt><a href=""><img src="images/ad_img7.jpg"></a></dt>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer></footer>
+  <script type="text/javascript" src="js/menuregname.js"></script>
+  <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
